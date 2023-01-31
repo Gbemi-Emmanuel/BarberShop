@@ -141,6 +141,9 @@ nav ul li{
 	border: 2px solid var(--white);
 }
 @media screen and (max-width:770px){
+		body{
+			overflow-x: hidden;
+		}
 		.banner-text h1{
 			font-size:  44px;
 		}
@@ -431,15 +434,14 @@ hr{
 	text-align: center;
 
 }
-.social-links img{
-	width: 30px;
-	height: 30px;
+.social-links i{
+	font-size: 32px;
 	margin: 40px 5px 0;
 	cursor: pointer;
 	transition: 0.5s;
 
 }
-.social-links img:hover{
+.social-links i:hover{
 	transform: translateY(-7px)
 }
 .footer-hr{
